@@ -1,24 +1,36 @@
 import React from 'react'
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import Container from  'react-bootstrap/Container'
-import NavbarBrand from 'react-bootstrap/esm/NavbarBrand'
+
+
 
 
 const Navbar = () => {
+
   return (
     <div>
-    <Navbar  className='nav bg-light'>
-     <Container>
-     <NavbarBrand href='#home'> Navbar</NavbarBrand>
-     <Nav>
-     
-     </Nav>
-     
-     </Container>
-    
-    </Navbar>
-      
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-space-between">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src='../Assets/logo.png' alt="logo"/></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          Navbar text with an inline element
+        </span>
+      </div>
+    </div>
+  </nav>  
     </div>
   )
 }
