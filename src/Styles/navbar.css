@@ -1,16 +1,26 @@
-/* .btn{
+.logo{
+    padding-right:3.125rem;
+}
+.btn{
     width:7.25rem;
     margin-left:20.25rem;
     height:3.125rem;
-}
-#navbarText{
-    margin-left:6.875rem;
+    background-color:#E8F1FF;
 }
 .navbar{
     border-bottom: 1px solid #0101;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
     position:fixed;
-} */
+} 
+.active{
+    color:#030303;
+}
+
+/* 
+#navbarText{
+    margin-left:6.875rem;
+}
+
 /* colors */
 
 /* #E8F1FF-lightblue
