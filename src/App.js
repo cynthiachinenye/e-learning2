@@ -1,21 +1,22 @@
 import Navbar from "./Components/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Router, Route,Routes} from 'react-router-dom';
-import Header from "./Pages/Header";
+import {BrowserRouter, Route,Routes,} from 'react-router-dom';
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <div className="App">
+     <BrowserRouter>
       <Navbar/>
-      <Router>
-      <Route>
-      <Routes element={<Header/>}/>
+     
+      <Routes>
+      <Route path="/" element={<Home/>}/>
       
       
-      </Route>
+      </Routes>
       
       
-      </Router>
+      </ BrowserRouter>
       
     </div>
   );
