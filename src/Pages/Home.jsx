@@ -5,7 +5,7 @@ import "../Styles/home.css"
 const Home = () => {
   return (
     <Container>
-    <div className='header d-flex  d-flex justify-content-around container-sm' >
+    <div className='header d-flex  d-flex container-sm' >
     <div className='left-side ms-5 my-5 '>
     <h1 className='pb-3'>Discover best classes for the best learning</h1>
     <p className='pb-3'>We designed Connections Academy to give students all across the nation a tuition-free online public school that lets them learn.</p>
