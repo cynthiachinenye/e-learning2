@@ -16,10 +16,10 @@ const Menu = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-5">
-          <Nav.Link href="#home  active">Home</Nav.Link>
-          <Nav.Link href="#profile">Profile</Nav.Link>
-          <Nav.Link href="#course">Courses</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
+          <Nav.Link href="home" className='active'>Home</Nav.Link>
+          <Nav.Link href="profile">Profile</Nav.Link>
+          <Nav.Link href="course">Courses</Nav.Link>
+          <Nav.Link href="contact">Contact</Nav.Link>
           <button type='submit' className='btn btn-light text-primary bg-light'>Sign Up</button>
         </Nav>
       </Navbar.Collapse>

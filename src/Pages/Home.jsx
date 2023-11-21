@@ -37,13 +37,6 @@ const Home = () => {
     </div>
 
 
-    <div className='container'>
-    <div className='img-fluid'>
-    <img src="./Assets/Group 114.png" alt="right"/>
-    </div>
-    
-    
-    </div>
     
     </div>
       
