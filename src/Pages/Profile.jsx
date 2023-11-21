@@ -9,13 +9,13 @@ import '../Styles/profile.css'
 
 const Profile = () => {
     return (
-        <div className='container d-flex mt-5'>
+        <div className='container d-flex mt-5 pt-5'>
             <div className='img-fluid'>
                 <img src="./Assets/Group 114.png" alt="right" className='w-75' />
             </div>
             <div>
                 <div>
-                    <h3>HOW OUR ONLINE PUBLIC SCHOOL WORKS</h3>
+                    <h3 className='fw-bold w-50 text-wrap '>HOW OUR ONLINE PUBLIC SCHOOL WORKS</h3>
                 </div>
                 <div className='container row'>
                     <div className='w-50'>

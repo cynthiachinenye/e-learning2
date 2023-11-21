@@ -10,13 +10,13 @@ const Menu = () => {
   
   return (
     <div>
-    <Navbar expand="lg" className="navbar ">
+    <Navbar expand="lg" className="navbar fixed-top ">
     <Container>
       <img src='./Assets/Logo.png' alt='Logo' className="logo"/>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-5">
-          <Nav.Link href="home">Home</Nav.Link>
+          <Nav.Link href="home" className='active'>Home</Nav.Link>
           <Nav.Link href="profile">Profile</Nav.Link>
           <Nav.Link href="#course">Courses</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>

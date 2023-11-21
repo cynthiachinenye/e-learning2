@@ -5,7 +5,7 @@ import Profile from './Profile'
 const Home = () => {
   return (
   
-    <div className='container-sm   '>
+    <div className='container-sm  mt-5 pt-5'>
     <div className='d-flex '  >
     <div className='left-side my-3 text-left col-md-5 text-md-start'>
     <h1 className=' fs-2 '>Discover best classes for the best learning</h1>
