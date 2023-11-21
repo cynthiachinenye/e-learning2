@@ -22,7 +22,17 @@ const Home = () => {
     </div>
 
     <div>
-         
+       <div>
+       <h3>400+</h3>
+       <p>Universities worldwide that partner with us</p>
+       </div>  
+       <div>
+       <img src="./Assets/Mask Group (1).png" alt="icon"/>
+       <img src="./Assets/Mask Group (2).png" alt="icon"/>
+       <img src="./Assets/Mask Group (3).png" alt="icon"/>
+       <img src="./Assets/Mask Group.png" alt="icon"/>
+       
+       </div>
     
     </div>
     
