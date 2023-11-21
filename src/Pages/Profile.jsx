@@ -9,7 +9,7 @@ import '../Styles/profile.css'
 
 const Profile = () => {
     return (
-        <div className='container d-flex'>
+        <div className='container d-flex mt-5'>
             <div className='img-fluid'>
                 <img src="./Assets/Group 114.png" alt="right" className='w-75' />
             </div>
@@ -17,9 +17,9 @@ const Profile = () => {
                 <div>
                     <h3>HOW OUR ONLINE PUBLIC SCHOOL WORKS</h3>
                 </div>
-                <div className='container d-flex justify-content-around '>
-                    <div className=''>
-                        <div>
+                <div className='container row'>
+                    <div className='w-50'>
+                        <div className='icon'>
                             <PiMonitorPlayBold />
                         </div>
                         <h6>VIRTUAL LEARNING</h6>
@@ -29,8 +29,8 @@ const Profile = () => {
                     </div>
 
 
-                    <div>
-                    <div>
+                    <div  className='w-50'>
+                    <div className='icon'>
                         <FaAddressBook/>
                     </div>
                     <h6>Meaningful Education</h6>
@@ -39,8 +39,8 @@ const Profile = () => {
 
                 </div>
 
-                <div>
-                <div>
+                <div  className='w-50'>
+                <div className='icon'>
                     <FaBookOpen />
                 </div>
                 <h6>ONLINE CURRICULUM</h6>
@@ -49,8 +49,8 @@ const Profile = () => {
 
             </div>
 
-            <div>
-            <div>
+            <div  className='w-50'>
+            <div className='icon '>
                 <TbSocial />
             </div>
             <h6>SOCIAL INTERACTION</h6>
