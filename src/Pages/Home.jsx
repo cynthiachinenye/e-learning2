@@ -21,18 +21,27 @@ const Home = () => {
     
     </div>
 
-    <div>
-       <div>
+    <div className='d-flex container-md algin-items-center mt-5'>
+       <div className='w-25'>
        <h3>400+</h3>
        <p>Universities worldwide that partner with us</p>
        </div>  
-       <div>
-       <img src="./Assets/Mask Group (1).png" alt="icon"/>
-       <img src="./Assets/Mask Group (2).png" alt="icon"/>
-       <img src="./Assets/Mask Group (3).png" alt="icon"/>
-       <img src="./Assets/Mask Group.png" alt="icon"/>
+       <div className='img-fluid ms-5 '>
+       <img src="./Assets/Mask Group (1).png" alt="icon" className='w-25 p-3' />
+       <img src="./Assets/Mask Group (2).png" alt="icon" className='w-25 p-3'/>
+       <img src="./Assets/Mask Group (3).png" alt="icon" className='w-25 p-3'/>
+       <img src="./Assets/Mask Group.png" alt="icon" className='w-25 p-3'/>
        
        </div>
+    
+    </div>
+
+
+    <div className='container'>
+    <div className='img-fluid'>
+    <img src="./Assets/Group 114.png" alt="right"/>
+    </div>
+    
     
     </div>
     
