@@ -11,18 +11,18 @@ const Profile = () => {
     return (
         <div className='container d-flex'>
             <div className='img-fluid'>
-                <img src="./Assets/Group 114.png" alt="right" className='w-50' />
+                <img src="./Assets/Group 114.png" alt="right" className='w-75' />
             </div>
             <div>
                 <div>
-                    <h1>HOW OUR ONLINE PUBLIC SCHOOL WORKS</h1>
+                    <h3>HOW OUR ONLINE PUBLIC SCHOOL WORKS</h3>
                 </div>
-                <div className='container'>
-                    <div>
+                <div className='container d-flex justify-content-around '>
+                    <div className=''>
                         <div>
                             <PiMonitorPlayBold />
                         </div>
-                        <h3>VIRTUAL LEARNING</h3>
+                        <h6>VIRTUAL LEARNING</h6>
                         <p>The only costs are for standard school supplies and voluntary field trips.</p>
 
 
@@ -33,7 +33,7 @@ const Profile = () => {
                     <div>
                         <FaAddressBook/>
                     </div>
-                    <h3>Meaningful Education</h3>
+                    <h6>Meaningful Education</h6>
                     <p>Many of our Connections Academy schools have additional accreditations.</p>
 
 
@@ -43,7 +43,7 @@ const Profile = () => {
                 <div>
                     <FaBookOpen />
                 </div>
-                <h3>ONLINE CURRICULUM</h3>
+                <h6>ONLINE CURRICULUM</h6>
                 <p>Our curriculum prepares students to go further in life by giving them support.</p>
 
 
@@ -53,7 +53,7 @@ const Profile = () => {
             <div>
                 <TbSocial />
             </div>
-            <h3>SOCIAL INTERACTION</h3>
+            <h6>SOCIAL INTERACTION</h6>
             <p>Students at Connections Academy collaborate on projects together.</p>
 
 
