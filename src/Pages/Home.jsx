@@ -4,7 +4,7 @@ import "../Styles/home.css"
 const Home = () => {
   return (
   
-    <div className='container-sm  d-flex justify-content-around '>
+    <div className='container-sm   '>
     <div className='d-flex '  >
     <div className='left-side my-3 text-left col-md-5 text-md-start'>
     <h1 className=' fs-2 '>Discover best classes for the best learning</h1>
@@ -18,6 +18,11 @@ const Home = () => {
     
     </div>
     
+    
+    </div>
+
+    <div>
+         
     
     </div>
     
