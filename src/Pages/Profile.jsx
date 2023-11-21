@@ -1,6 +1,9 @@
 import React from 'react'
 import { PiMonitorPlayBold } from "react-icons/pi";
 import { FaAddressBook, FaBookOpen} from "react-icons/fa";
+import { TbSocial } from "react-icons/tb";
+import '../Styles/profile.css'
+
 
 
 
@@ -48,7 +51,7 @@ const Profile = () => {
 
             <div>
             <div>
-                <PiMonitorPlayBold />
+                <TbSocial />
             </div>
             <h3>SOCIAL INTERACTION</h3>
             <p>Students at Connections Academy collaborate on projects together.</p>

@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/home.css"
+import Profile from './Profile'
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
     </div>
 
 
+    <Profile/>
     
     </div>
       
