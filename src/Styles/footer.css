@@ -1,0 +1,11 @@
+.link{
+    display:flex;
+    flex-direction:column;
+    text-decoration:none;
+    color:#606176;
+    font-size:1rem;
+}
+.link:hover{
+    text-decoration: underline;
+    color:#2378FF;
+}
