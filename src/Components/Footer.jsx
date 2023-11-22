@@ -46,7 +46,7 @@ const Footer = () => {
 
       <hr/>
 
-      <p>Copyright Besnik 2021 All rights reserved.</p>
+      <p className='p'>Copyright Besnik 2021 All rights reserved.</p>
 
     </div>
   )
