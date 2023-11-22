@@ -20,7 +20,7 @@ const Menu = () => {
           <Nav.Link href="profile">Profile</Nav.Link>
           <Nav.Link href="courses">Courses</Nav.Link>
           <Nav.Link href="contact">Contact</Nav.Link>
-          <button type='submit' className='btn btn-light text-primary bg-light'>Sign Up</button>
+          <button type='submit' className='btn btn-light text-primary bg-light but'>Sign Up</button>
         </Nav>
       </Navbar.Collapse>
     </Container>
