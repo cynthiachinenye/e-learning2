@@ -10,7 +10,7 @@ const Menu = () => {
   
   return (
     <div>
-    <Navbar expand="lg" className="navbar fixed-top ">
+    <Navbar expand="lg" className="navbar ">
     <Container>
       <img src='./Assets/Logo.png' alt='Logo' className="logo"/>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

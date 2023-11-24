@@ -4,3 +4,18 @@
     color:#2378FF;
     
 } 
+.button2{ width: 12.5rem;
+    height:2.12rem;
+    border-radius:0.325rem;
+    color:#fff;
+    
+} 
+span{
+    padding-left:1rem;
+    justify-content: space-between;
+    color:#606176;
+}
+.fa{
+    font-size:0.6rem;
+    color:#F77E53;
+}

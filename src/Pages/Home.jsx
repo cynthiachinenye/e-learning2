@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Styles/home.css"
 import Profile from './Profile'
+import Courses from './Courses'
 
 const Home = () => {
   return (
@@ -39,7 +40,7 @@ const Home = () => {
 
 
     <Profile/>
-    
+    <Courses/>
     </div>
       
   
